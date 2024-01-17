@@ -72,7 +72,7 @@ export const MessageFileModal = () => {
           <DialogTitle className="text-2xl text-center font-bold">
             Add an attachment
           </DialogTitle>
-          <DialogDescription>Send a file as a message</DialogDescription>
+          <DialogDescription className="text-center text-zinc-500">Send a file as a message</DialogDescription>
         </DialogHeader>
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
